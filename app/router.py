@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from app.schemas import UserPrompt, BotResponse
 from app.api_client import get_response
-from app.guardrails import validate_input
+from .input_guardrails import validate_input
 
 router = APIRouter()
 

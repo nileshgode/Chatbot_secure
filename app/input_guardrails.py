@@ -1,5 +1,8 @@
-from guardrails import Guard, OnFailAction
-from guardrails.hub import ToxicLanguage
+#from guardrails import Guard, OnFailAction
+#from guardrails.hub import ToxicLanguage
+
+from app.input_guardrails import validate_input
+
 
 # Initialize a guard that blocks toxic or inappropriate user input
 guard = Guard().use(

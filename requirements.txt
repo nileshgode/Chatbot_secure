@@ -4,4 +4,4 @@ pydantic
 python-dotenv
 openai
 guardrails-ai
-
+fastapi
